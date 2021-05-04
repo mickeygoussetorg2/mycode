@@ -27,7 +27,7 @@ jobs:
       - uses: mickeygoussetorg2/checkout@v2
       
       - name: Initialize CodeQL
-        uses: mickeygoussetorg2/ccodeql-action/init@v1
+        uses: mickeygoussetorg2/codeql-action/init@v1
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
